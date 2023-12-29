@@ -1,0 +1,422 @@
+.allside {
+  display: flex;
+  flex-direction: row;
+}
+.txt {
+  margin: 0%;
+  padding: 0%;
+  margin-left: 20px;
+  float: left;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgba(31, 31, 31, 255);
+}
+.sidebar {
+  position: fixed;
+  width: 15%;
+  height: 100%;
+  background-color: black;
+}
+#logo {
+  width: 60%;
+  margin-top: 10%;
+  margin-left: 2vw;
+  padding-bottom: 3vh;
+}
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1vw;
+  padding-bottom: 3vh;
+  align-items: start;
+}
+.home {
+  width: 100%;
+}
+.home img {
+  width: 20px;
+  padding-right: 1vh;
+  float: left;
+}
+.home button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 1;
+  font: inherit;
+  cursor: pointer;
+  margin-bottom: 5%;
+  width: 90%;
+}
+.home :hover {
+  background-color: rgb(129, 114, 114);
+}
+.search :hover {
+  background-color: rgb(129, 114, 114);
+}
+.search {
+  width: 90%;
+}
+.search button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 10;
+  font: inherit;
+  cursor: pointer;
+  margin-bottom: 5%;
+  width: 100%;
+}
+.search img {
+  width: 20px;
+  padding-right: 1vh;
+  float: left;
+}
+.library :hover {
+  background-color: rgb(129, 114, 114);
+}
+.library button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 10;
+  font: inherit;
+  cursor: pointer;
+  margin-bottom: 5%;
+  width: 90%;
+}
+.library {
+  width: 100%;
+}
+.library img {
+  width: 20px;
+  padding-right: 1vh;
+  float: left;
+}
+.playside {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1vw;
+  padding-bottom: 3vh;
+  align-items: start;
+}
+.createplay img {
+  width: 20px;
+  padding-right: 1vh;
+  float: left;
+}
+.createplay {
+  width: 100%;
+}
+.createplay button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 10;
+  margin-bottom: 5%;
+  font: inherit;
+  cursor: pointer;
+  width: 90%;
+}
+.liked img {
+  width: 20px;
+  padding-right: 1vh;
+  float: left;
+}
+.liked {
+  width: 100%;
+}
+.liked button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 10;
+  font: inherit;
+  cursor: pointer;
+  margin-bottom: 5%;
+  width: 90%;
+}
+.podcast img {
+  width: 20px;
+  padding-right: 1vh;
+  float: left;
+}
+.podcast {
+  width: 100%;
+}
+.podcast button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 10;
+  font: inherit;
+  cursor: pointer;
+  width: 90%;
+}
+.myplay {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1vw;
+  padding-bottom: 3vh;
+  align-items: start;
+}
+.myplay button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10;
+  font: inherit;
+  cursor: pointer;
+  margin-bottom: 5%;
+}
+.install {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1vw;
+  padding-bottom: 3vh;
+  align-items: start;
+}
+.install button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10;
+  font: inherit;
+  cursor: pointer;
+}
+.install img {
+  width: 20px;
+  padding-right: 1vw;
+}
+.currentmusic {
+  margin-top: 9vh;
+  width: 10vh;
+  background-color: black;
+}
+
+/* downbar */
+.sidescreen {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  height: 100%;
+  margin-left: 15%;
+}
+.arrow {
+  margin-left: 40px;
+}
+.arrow img {
+  height: 30px;
+  margin-top: 10px;
+}
+.angel {
+  margin-left: 800px;
+  padding: 0%;
+  margin-top: 0;
+}
+.angel img {
+  height: 30px;
+  margin-top: 10px;
+}
+.topbar {
+  display: flex;
+}
+.gm {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 40px;
+}
+
+.gm h1 {
+  margin-top: 30px;
+  margin-bottom: 0%;
+}
+.undergm {
+  display: flex;
+  flex-direction: row;
+}
+.gmimg {
+  height: 60px;
+}
+.lscont {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 2%;
+  width: 300px;
+  background-color: rgba(48, 48, 48, 255);
+  color: white;
+  border-radius: 5px;
+}
+
+.neffex {
+  margin-top: 2%;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 2%;
+  width: 300px;
+  background-color: rgba(48, 48, 48, 255);
+  color: white;
+  border-radius: 5px;
+}
+.kd {
+  margin-top: 2%;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 2%;
+  width: 300px;
+  background-color: rgba(48, 48, 48, 255);
+  color: white;
+  border-radius: 5px;
+}
+.ls1 {
+  margin-top: 2%;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 2%;
+  width: 300px;
+  background-color: rgba(48, 48, 48, 255);
+  color: white;
+  border-radius: 5px;
+}
+.elec {
+  margin-top: 2%;
+  display: flex;
+  margin-left: 40px;
+  width: 240px;
+  background-color: rgba(48, 48, 48, 255);
+  color: white;
+  border-radius: 5px;
+}
+.marsh {
+  margin-top: 2%;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 2%;
+  width: 300px;
+  background-color: rgba(48, 48, 48, 255);
+  color: white;
+  border-radius: 5px;
+}
+.showtolike {
+  display: flex;
+  color: white;
+  margin-left: 40px;
+}
+.showtolike h4{
+  color: rgba(120,120,120,255);
+  margin-left: 70%;
+}
+.text {
+  margin-top: 22px;
+  margin-left: 20px;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.moti {
+  width: 230px;
+  margin-left: 40px;
+  margin-right: 30px;
+
+  background-color: rgba(24,24,24,255);
+}
+.medi {
+  width: 230px;
+  margin-right: 30px;
+  height: 160px;
+  background-color: rgba(24,24,24,255);
+}
+.words {
+  width: 230px;
+  margin-right: 30px;
+  height: 160px;
+  background-color: rgba(24,24,24,255);
+}
+.alexa {
+  width: 230px;
+  margin-right: 30px;
+  height: 160px;
+  background-color: rgba(24,24,24,255);
+}
+.story {
+  width: 230px;
+  margin-right: 30px;
+  height: 160px;
+  background-color: rgba(24,24,24,255);
+}
+.moti1 {
+  width: 230px;
+  margin-right: 20px;
+  height: 160px;
+  background-color: rgba(24,24,24,255);
+}
+
+.size{
+  margin-top: 15px;
+  margin-left: 23px;
+  height: 100px;
+  width: 100px;
+  /* margin-bottom: 20px; */
+}
+.x{
+  margin-left: 23px;
+  font-size: small;
+}
+.downbar{
+  position: fixed;
+  background-color: rgba(24,24,24,255);
+  width: 100%;
+  /* height: 10px; */
+  top: 83%;
+  color: white;
+}
+.dream{
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.pos{
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 0px;
+}
+.artist{
+  position: absolute;
+  margin-top: 55px;
+  font-size: small;
+  color: rgb(133,133,133);
+}
+.heart{
+  position: relative;
+  margin-left: 100px;
+  margin-bottom: 24px;
+}
+.player{
+  margin-left: 150px;
+}
+.option{
+  /* position: relative; */
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+.green{
+  background-color: rgba(30,215,96,255);
+  width: 100%;
+  height: 20px;
+}
+.last{
+  color: black;
+  font-size: small;
+  position: relative;
+  margin-left: 83%;
+  margin-bottom: 10px;
+}
